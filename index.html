@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SD Negeri 1 Campoan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: yellow;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #1abc9c;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .galeri img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: arange;
+      padding: 15px;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      .galeri img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="logo.jpeg" alt="Logo SD Negeri 1 Campoan">
+    <h1>SD Negeri 1 Campoan</h1>
+  </header>
+
+  <!-- Navigasi -->
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#profil">Profil</a>
+    <a href="#informasi">Informasi</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <!-- Konten Utama -->
+  <div class="container">
+
+    <div class="section" id="beranda">
+      <center><h2 style="background-color: #d0f0c0; padding: 10px; border-radius: 8px;">
+    Selamat Datang di Website Resmi SD Negeri 1 Campoan
+  </h2>
+</center>
+      <p style="background-color: #d0f0c0; padding: 10px; border-radius: 8px;">Website ini menyajikan informasi seputar kegiatan, prestasi, dan berita terbaru dari SD Negeri 1 Campoan. Sekolah berkomitmen memberikan layanan belajar yang bermutu, ramah anak, dan sesuai dengan karakter serta potensi lokal pedesaan pegunungan.</p>
+    </div>
+
+    <div class="section" id="profil">
+      <h2>Profil Sekolah</h2>
+      <p><strong>Nama Sekolah:</strong> SD Negeri 1 Campoan</p>
+      <p><strong>Alamat:</strong> Jl. G. Malang No.38 Kp Plalangan, Desa Campoan</p>
+      <p><strong>Visi:</strong> Mewujudkan sekolah yang bermutu, ramah anak, dan berdaya saing dengan menjunjung nilai karakter serta kearifan lokal pedesaan pegunungan.</p>
+      <p><strong>Misi:</strong></p>
+      <ul>
+        <li>Menyelenggarakan layanan pendidikan yang berkualitas, ramah anak, dan berorientasi pada kebutuhan serta potensi siswa.</li>
+        <li>Menanamkan nilai-nilai karakter luhur, cinta lingkungan, dan kearifan lokal.</li>
+        <li>Meningkatkan kerja sama dengan masyarakat untuk mendukung pendidikan yang relevan dengan kehidupan pedesaan pegunungan.</li>
+        <li>Meningkatkan Kualifikasi Pendidikan Guru dan Kualitas Guru, Tenaga Kependidikan sesuai yang dimasyarakatkan termasuk Program Sertifikasi Kompetensi Guru.</li>
+        <li>Memenuhi Kebutuhan Sarana dan Prasarana Pendidikan Serta Tenaga Pendidik dan Tenaga Kependidikan Sekolah.</li>
+        <li>Mengembangkan keterampilan siswa melalui pembelajaran yang kreatif, inovatif, dan berbasis potensi alam sekitar.</li>
+        <li>Mengembangkan Teknologi Informasi.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="informasi">
+      <h2>Informasi Terbaru</h2>
+      <ul>
+        <li>📌 <strong>Ujian Akhir Tahun</strong> dimulai tanggal 10 Juni 2025.</li>
+        <li>🎓 <strong>Pengumuman Kelulusan</strong> diumumkan pada 2 Juni 2025.</li>
+        <li>🌳 <strong>JUMSIROH (Jumat Siswa dan Guru Membaca Surat Pendek Rohani).</li>
+      </ul>
+    </div>
+
+    <div class="section" id="galeri">
+      <h2>Galeri Sekolah</h2>
+      <div class="galeri">
+        <img src="Jumsiroh.jpeg" alt="Kegiatan 1">
+        <h5>JUMSIROH (Jumat Siswa dan Guru Membaca Surat Pendek Rohani)</h5>
+        <img src="Pembelajaran Berbasis TIK.jpeg" alt="Kegiatan 2">
+        <h5>Pembelajaran Berbasis TIK</h5>
+        <img src="ASAS.jpeg" alt="Kegiatan 3">
+        <h5>Pelaksanaan ASAS</h5>
+	<img src="Riski.jpeg" alt="Kegiatan 4">
+	<h5>Trichampion Atletik</h5>
+      </div>
+    </div>
+
+    <div class="section" id="kontak">
+      <h2>Kontak Kami</h2>
+      <p><strong>Email:</strong> admin@sdn1campoan.sch.id</p>
+      <p><strong>Telepon:</strong> 082302484247</p>
+      <p><strong>Facebook:</strong> <a href="#">facebook.com/SD Negeri1campoan</a></p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 SD Negeri 1 Campoan. All rights reserved.
+  </footer>
+
+</body>
+</html>
